@@ -1,0 +1,35 @@
+package com.sfs.db.jdo;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import com.sfs.db.IPersistable;
+
+/**
+ * MemberList
+ */
+@Entity
+@Table(name = "member_list")
+public class MemberList implements IPersistable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 356067115471379647L;
+	private int mlId;
+
+	@Id
+	@Column(name = "ml_id", unique = true, nullable = false)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	public int getMlId() {
+		return mlId;
+	}
+	
+	public void setMlId(int mlId) {
+		this.mlId = mlId;
+	}
+}

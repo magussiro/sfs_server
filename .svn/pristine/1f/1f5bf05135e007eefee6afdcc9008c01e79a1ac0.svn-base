@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<project name="sfs_server" default="jar" basedir="." >
+	
+	<property name="src" value="${basedir}/src" />
+	<property name="bin" value="${basedir}/bin" />
+
+	<target name="init">
+	    <!-- Create the time stamp -->
+	    <tstamp/>
+	</target>
+
+    <path id="classpath">
+        <fileset dir="./lib" includes="**/*.jar"/>
+    </path>
+
+	<target name="compile" depends="init">
+	    <!-- Compile the java code from ${src} into ${build} -->
+		<echo level = "warning">[Compiling]  TAIWAN TAIWAN TAIWAN TAIWAN TAIWAN TAIWAN ${DSTAMP}_${TSTAMP}</echo>
+	    <javac srcdir="${src}" destdir="${bin}" classpathref="classpath" includeantruntime="false"/>
+	</target>
+
+	<target name="jar" depends="compile">
+		<echo level = "warning">[Building JAR]  TAIWAN TAIWAN TAIWAN TAIWAN TAIWAN TAIWAN TAIWAN ${DSTAMP}_${TSTAMP}</echo>
+		<delete file="SFSMainExtension.jar"/>
+
+		<jar jarfile="SFSMainExtension.jar">
+			<fileset dir="bin">
+		    	<include name="**/*.class"/>
+				<exclude name="**/test/*"/>
+			</fileset>
+	    </jar>
+	</target>
+</project>

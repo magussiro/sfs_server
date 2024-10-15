@@ -1,0 +1,30 @@
+package com.sfs.event;
+
+import com.sfs.util.Util;
+import com.smartfoxserver.v2.annotations.Instantiation;
+import com.smartfoxserver.v2.core.ISFSEvent;
+import com.smartfoxserver.v2.core.SFSEventParam;
+import com.smartfoxserver.v2.entities.User;
+import com.smartfoxserver.v2.exceptions.SFSException;
+import com.smartfoxserver.v2.extensions.BaseServerEventHandler;
+
+/**
+ * Handle client login event†å
+ * ª±®aµn¤J¹CÀ¸«á²Ä¤@­ÓÄ²µoªº¨Æ¥ó“¡
+ */
+@Instantiation(Instantiation.InstantiationMode.SINGLE_INSTANCE)
+public class LoginEventHandler extends BaseServerEventHandler
+{
+	@Override
+    public void handleServerEvent(ISFSEvent event) throws SFSException
+    {
+		final String userName = (String) event.getParameter(SFSEventParam.LOGIN_NAME);
+		final User oldUser = this.getApi().getUserByName(userName);
+		// ³B²z­«½Æµn¤Jªºª±®a¡A±Ä¨ú«á(µn¤J)½ð«e(µn¤J)ªº¾÷¨î
+		if (oldUser != null) {
+			this.getApi().disconnectUser(oldUser);
+			Util.logWarn("Duplicate login " + userName);
+		}
+        Util.logInfo("Login Success " + userName);
+	}
+}

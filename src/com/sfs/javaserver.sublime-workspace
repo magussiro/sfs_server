@@ -1,0 +1,245 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Magus 1/Project/JavaServer"
+	],
+	"file_history":
+	[
+		"/Users/Magus 1/Project/JavaServer/sfs_server/src/com/sfs/SFSMainExtension.java",
+		"/Users/Magus 1/Documents/gearman問題",
+		"/Users/Magus 1/Documents/brew 裝起來以下的指令跑完就裝好就可以開始工作了 ..",
+		"/Users/Magus 1/Downloads/C#測驗.txt",
+		"/Users/Magus 1/Downloads/C#測驗答案.txt",
+		"/Users/Magus 1/Downloads/JavaTestV2",
+		"/Users/Magus 1/Downloads/gamemoney0220.xml",
+		"/Applications/MAMP/htdocs/gamemoney/admin/cronjob/transfer_check.php",
+		"/Applications/MAMP/htdocs/gamemoney/admin/inc/db_info.php",
+		"/Applications/MAMP/htdocs/blesswisdom/inc/db_info.php",
+		"/Users/Magus 1/Downloads/dark_chess_log/Get games",
+		"/Users/Magus 1/Downloads/dark_chess_log/Room init",
+		"/Users/Magus 1/Downloads/tbl_removeasset_tagdata (2).sql",
+		"/Users/Magus 1/Downloads/tbl_remove_info.sql",
+		"/Users/Magus 1/Downloads/tbl_tag.sql",
+		"/Users/Magus 1/Downloads/【 前端工程師 】",
+		"/Applications/MAMP/logs/php_error.log",
+		"/Users/Magus 1/Downloads/www.slot777go.com-1486812289501.log",
+		"/Users/Magus 1/Downloads/tbl_removeasset_tagdata.sql",
+		"/Users/Magus 1/Downloads/tbl_removeasset_tagdata (1).sql",
+		"/Users/Magus 1/Downloads/treebank_2017-02-09.sql",
+		"/Users/Magus 1/Downloads/dark_chess_log/list.empty err",
+		"/Users/Magus 1/Downloads/dark_chess_log/List<?> memberList = Connection.getCla",
+		"/Users/Magus 1/Downloads/dark_chess_log/diff old",
+		"/Users/Magus 1/Downloads/dark_chess_log/Eclipse 沒有reflsh",
+		"/Users/Magus 1/Downloads/dark_chess_log/GetRlShip",
+		"/Users/Magus 1/Downloads/dark_chess_log/Eloquent_JavaScript_small.pdf",
+		"/Applications/MAMP/logs/配對沒報",
+		"/Applications/MAMP/logs/Match死掉",
+		"/Applications/MAMP/logs/加好有還是報",
+		"/Users/Magus 1/Downloads/dark_chess_log/25 一月 2017 | 16:04:08,570 | INFO  | SFSWorker:Sys:",
+		"/Users/Magus 1/Downloads/dark_chess_log/遊客登入死掉 FullNews",
+		"/Users/Magus 1/Downloads/dark_chess_log/player win",
+		"/Users/Magus 1/Downloads/dark_chess_log/final ISFSArray userObjArray = SFSArray.newInsta",
+		"/Users/Magus 1/Downloads/dark_chess_log/新玩家初始失敗",
+		"/Users/Magus 1/Downloads/SmartfoxServer流程圖.svg",
+		"/Users/Magus/Downloads/7pk_deploy/left_menu.php",
+		"/Applications/MAMP/logs/apache_error.log",
+		"/Users/Magus/Downloads/get_mv_upload_path",
+		"/Users/Magus/Downloads/ORID 是一个思考框架，网路上面也有很多相关的资讯。利用 ORID 整理今天的思绪。",
+		"/Users/Magus/Downloads/IAP",
+		"/Users/Magus/Dropbox/Vuedinar#5",
+		"/Users/Magus/Dropbox/公司目前十八人，成員有",
+		"/Applications/MAMP/logs/mysql_error_log.err",
+		"/Users/Magus/Downloads/tracy-2.4.2/readme.md",
+		"/Applications/MAMP/conf/php5.6.24/php.ini",
+		"/Users/Magus/Downloads/five-tables.sql",
+		"/Users/Magus/Downloads/project-tiger_slot/tiger_slot_web/um/inc/db_info.php",
+		"/Applications/MAMP/bin/php/php5.6.25/conf/php.ini"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"persist",
+			"61",
+			"articles2",
+			"status",
+			", `index`",
+			"TID: E2003412013DF80009A47419",
+			"DarkChessRequestHandler",
+			"Target member not send invitation!",
+			"Fatal",
+			"zend_extension",
+			"Zend]",
+			"[Zend]",
+			"zend",
+			"xdebug",
+			"Zend",
+			"[Zend]"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"26",
+			"articles",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "javaserver.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"db_info",
+				"htdocs/gamemoney/admin/inc/db_info.php"
+			],
+			[
+				"db_inf",
+				"htdocs/blesswisdom/inc/db_info.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
